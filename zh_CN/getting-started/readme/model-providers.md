@@ -1,6 +1,6 @@
 # 模型供应商列表
 
-Dify 为以下模型提供商提供原生支持：
+Kofe 为以下模型提供商提供原生支持：
 
 <table data-full-width="false">
     <thead>
@@ -381,4 +381,4 @@ Dify 为以下模型提供商提供原生支持：
 
 其中 (🛠️) 代表支持 Function Calling，(👓) 代表视觉能力。
 
-这张表格我们会一直保持更新。同时，我们也留意着社区成员们所提出的关于模型供应商的各种[请求](https://github.com/langgenius/dify/discussions/categories/ideas)。如果你有需要的模型供应商却没在上面找到，不妨动手参与进来，通过提交一个PR（Pull Request）来做出你的贡献。欢迎查阅我们的 [contribution.md](../../community/contribution.md "mention")指南了解更多。
+这张表格我们会一直保持更新。同时，我们也留意着社区成员们所提出的关于模型供应商的各种[请求](https://github.com/langgenius/kofe/discussions/categories/ideas)。如果你有需要的模型供应商却没在上面找到，不妨动手参与进来，通过提交一个PR（Pull Request）来做出你的贡献。欢迎查阅我们的 [contribution.md](../../community/contribution.md "mention")指南了解更多。

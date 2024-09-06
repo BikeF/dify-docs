@@ -51,4 +51,4 @@
 
 <figure><img src="https://langgenius.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjdjMjNmZmE4YzUzOWUwNDk5NjRkNzBkNjcxMzZiY2NfSENEZVZ1RFVnTkpGNTBESUVrVEtQVXZVUEdpMEcyOEZfVG9rZW46UlNMQmJSeG5Sb0pHVGF4U3FBQmNzSUlybjZkXzE3MjQ4MjU3ODc6MTcyNDgyOTM4N19WNA" alt=""><figcaption></figcaption></figure>
 
-> 如果还想要了解更多关于工作流的编排技巧，请参考[《工作流》](https://docs.dify.ai/v/zh-hans/guides/workflow)。
+> 如果还想要了解更多关于工作流的编排技巧，请参考[《工作流》](https://docs.kofe.ai/v/zh-hans/guides/workflow)。
