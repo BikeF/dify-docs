@@ -1,8 +1,8 @@
 # Stable Diffusion
 
-> 工具作者 @Kofe。
+> 工具作者 @Dify。
 
-StableDiffusion 是一种基于文本提示生成图像的工具，Kofe 已经实现了访问 Stable Diffusion WebUI API 的接口，因此你可以直接在 Kofe 中使用它。以下是在 Kofe 中集成 Stable Diffusion 的步骤。
+StableDiffusion 是一种基于文本提示生成图像的工具，Dify 已经实现了访问 Stable Diffusion WebUI API 的接口，因此你可以直接在 Dify 中使用它。以下是在 Dify 中集成 Stable Diffusion 的步骤。
 
 ## 1. 初始化本地环境
 
@@ -62,7 +62,7 @@ git clone https://huggingface.co/JamesFlare/pastel-mix
 
 `model_name` 就是我们需要的，这个例子中是 `pastel-mix_pastelmix-better-vae-fp32`。
 
-## 3. 在 Kofe 集成 Stable Diffusion
+## 3. 在 Dify 集成 Stable Diffusion
 
 在 `工具 > StableDiffusion > 去认证` 中填写你在之前步骤中获取的认证信息和模型配置。
 
@@ -70,7 +70,7 @@ git clone https://huggingface.co/JamesFlare/pastel-mix
 
 - **Chatflow / Workflow 应用**
 
-Chatflow 和 Workflow 应用均支持添加 `Stable Diffusion` 工具节点。添加后，需要在节点内的 “输入变量 → 提示词” 内填写[变量](https://docs.kofe.ai/v/zh-hans/guides/workflow/variables)引用用户输入的提示词，或者是上一节点生成的内容。最后在 “结束” 节点内使用变量引用 `Stable Diffusion` 输出的图像。
+Chatflow 和 Workflow 应用均支持添加 `Stable Diffusion` 工具节点。添加后，需要在节点内的 “输入变量 → 提示词” 内填写[变量](https://docs.dify.ai/v/zh-hans/guides/workflow/variables)引用用户输入的提示词，或者是上一节点生成的内容。最后在 “结束” 节点内使用变量引用 `Stable Diffusion` 输出的图像。
 
 - **Agent 应用**
 

@@ -1,8 +1,8 @@
 # 嵌入网站
 
-Kofe 支持将你的 AI 应用嵌入到业务网站中，你可以使用该能力在几分钟内制作具有业务数据的官网 AI 客服、业务知识问答等应用。点击 WebApp 卡片上的嵌入按钮，复制嵌入代码，粘贴到你网站的目标位置。
+Dify 支持将你的 AI 应用嵌入到业务网站中，你可以使用该能力在几分钟内制作具有业务数据的官网 AI 客服、业务知识问答等应用。点击 WebApp 卡片上的嵌入按钮，复制嵌入代码，粘贴到你网站的目标位置。
 
-当你在网站中使用 Kofe 聊天机器人气泡按钮时，你可以自定义按钮的样式、位置和其他设置。
+当你在网站中使用 Dify 聊天机器人气泡按钮时，你可以自定义按钮的样式、位置和其他设置。
 
 *   **iframe 标签方式**
 
@@ -18,13 +18,13 @@ Kofe 支持将你的 AI 应用嵌入到业务网站中，你可以使用该能�
 
     <figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
-## 自定义 Kofe 聊天机器人气泡按钮
+## 自定义 Dify 聊天机器人气泡按钮
 
-Kofe 聊天机器人气泡按钮可以通过以下配置选项进行自定义：
+Dify 聊天机器人气泡按钮可以通过以下配置选项进行自定义：
 
 ```javascript
 window.difyChatbotConfig = {
-    // 必填项，由 Kofe 自动生成
+    // 必填项，由 Dify 自动生成
     token: 'YOUR_TOKEN',
     // 可选项，默认为 false
     isDev: false,
@@ -36,7 +36,7 @@ window.difyChatbotConfig = {
     draggable: false,
     // 可选项，允许拖动按钮的轴，默认为 `both`，可以是 `x`、`y`、`both`
     dragAxis: 'both',
-    // 可选项，在 kofe 聊天机器人中设置的输入对象
+    // 可选项，在 dify 聊天机器人中设置的输入对象
     inputs: {
         // 键是变量名
         // 例如：
@@ -56,41 +56,41 @@ window.difyChatbotConfig = {
 
 ```css
 /* 按钮距离底部的距离，默认为 `1rem` */
---kofe-chatbot-bubble-button-bottom
+--dify-chatbot-bubble-button-bottom
 
 /* 按钮距离右侧的距离，默认为 `1rem` */
---kofe-chatbot-bubble-button-right
+--dify-chatbot-bubble-button-right
 
 /* 按钮距离左侧的距离，默认为 `unset` */
---kofe-chatbot-bubble-button-left
+--dify-chatbot-bubble-button-left
 
 /* 按钮距离顶部的距离，默认为 `unset` */
---kofe-chatbot-bubble-button-top
+--dify-chatbot-bubble-button-top
 
 /* 按钮背景颜色，默认为 `#155EEF` */
---kofe-chatbot-bubble-button-bg-color
+--dify-chatbot-bubble-button-bg-color
 
 /* 按钮宽度，默认为 `50px` */
---kofe-chatbot-bubble-button-width
+--dify-chatbot-bubble-button-width
 
 /* 按钮高度，默认为 `50px` */
---kofe-chatbot-bubble-button-height
+--dify-chatbot-bubble-button-height
 
 /* 按钮边框半径，默认为 `25px` */
---kofe-chatbot-bubble-button-border-radius
+--dify-chatbot-bubble-button-border-radius
 
 /* 按钮盒阴影，默认为 `rgba(0, 0, 0, 0.2) 0px 4px 8px 0px)` */
---kofe-chatbot-bubble-button-box-shadow
+--dify-chatbot-bubble-button-box-shadow
 
 /* 按钮悬停变换，默认为 `scale(1.1)` */
---kofe-chatbot-bubble-button-hover-transform
+--dify-chatbot-bubble-button-hover-transform
 ```
 
 例如，要将按钮背景颜色更改为 #ABCDEF，请添加以下 CSS：
 
 ```css
-#kofe-chatbot-bubble-button {
-    --kofe-chatbot-bubble-button-bg-color: #ABCDEF;
+#dify-chatbot-bubble-button {
+    --dify-chatbot-bubble-button-bg-color: #ABCDEF;
 }
 ```
 
@@ -120,7 +120,7 @@ window.difyChatbotConfig = {
 window.difyChatbotConfig = {
     // ... 其他配置
     containerProps: {
-        className: 'kofe-chatbot-bubble-button-custom my-custom-class',
+        className: 'dify-chatbot-bubble-button-custom my-custom-class',
     },
 };
 ```

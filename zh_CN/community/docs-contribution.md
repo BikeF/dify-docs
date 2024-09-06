@@ -1,6 +1,6 @@
-# 为 Kofe 文档做出贡献
+# 为 Dify 文档做出贡献
 
-Kofe 帮助文档是一个[开源项目](https://github.com/langgenius/kofe-docs)，我们欢迎任何形式的贡献。如果你在阅读文档时发现任何问题，亦或是想要为动手写作，贡献自己的一份力量，欢迎你在 Github 上提交 issue 或者直接发起 pull request，我们将尽快处理你的请求。
+Dify 帮助文档是一个[开源项目](https://github.com/langgenius/dify-docs)，我们欢迎任何形式的贡献。如果你在阅读文档时发现任何问题，亦或是想要为动手写作，贡献自己的一份力量，欢迎你在 Github 上提交 issue 或者直接发起 pull request，我们将尽快处理你的请求。
 
 ## 如何提交贡献
 
@@ -15,7 +15,7 @@ Kofe 帮助文档是一个[开源项目](https://github.com/langgenius/kofe-docs
 
 ![](../../img/zh-docs-contribution.png)
 
-当然，你也可以在 [Issues 页](https://github.com/langgenius/kofe-docs/issues)贴上文档链接，并简单描述需要修改的内容。收到反馈后将尽快处理。
+当然，你也可以在 [Issues 页](https://github.com/langgenius/dify-docs/issues)贴上文档链接，并简单描述需要修改的内容。收到反馈后将尽快处理。
 
 ### 内容缺失
 
@@ -26,7 +26,7 @@ Kofe 帮助文档是一个[开源项目](https://github.com/langgenius/kofe-docs
 首先将代码仓库 Fork 至你的 Github 账号内，然后使用 Git 拉取代码仓库至本地：
 
 ```bash
-git clone https://github.com/<your-github-account>/kofe-docs.git
+git clone https://github.com/<your-github-account>/dify-docs.git
 ```
 
 > 你也可以使用 Github 在线代码编辑器，在合适的目录内提交新的 md 文件。

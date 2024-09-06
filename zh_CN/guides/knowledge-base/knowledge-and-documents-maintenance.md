@@ -91,21 +91,21 @@
 **知识库描述**，用于描述知识库内文档代表的信息
 
 {% hint style="info" %}
-在知识库召回模式为 N 选 1 时，知识库作为工具提供给 LLM 进行推理调用，推理依据是知识库的描述，如果描述为空则会使用 Kofe 的自动索引策略
+在知识库召回模式为 N 选 1 时，知识库作为工具提供给 LLM 进行推理调用，推理依据是知识库的描述，如果描述为空则会使用 Dify 的自动索引策略
 {% endhint %}
 
 **可见权限**，可选择 「 只有我 」 或 「 所有团队成员 」，不具有权限的人将无法查阅和编辑数据集。
 
-**索引模式**，[参考文档](https://docs.kofe.ai/v/zh-hans/guides/knowledge-base/create-knowledge-and-upload-documents#id-5-suo-yin-fang-shi)
+**索引模式**，[参考文档](https://docs.dify.ai/v/zh-hans/guides/knowledge-base/create-knowledge-and-upload-documents#id-5-suo-yin-fang-shi)
 
 \*\*Embedding 模型，\*\*修改知识库的嵌入模型，修改 Embedding 模型将对知识库内的所有文档重新嵌入，原先的嵌入将会被删除。
 
-**检索设置**，[参考文档](https://docs.kofe.ai/v/zh-hans/guides/knowledge-base/create-knowledge-and-upload-documents#id-6-jian-suo-she-zhi)
+**检索设置**，[参考文档](https://docs.dify.ai/v/zh-hans/guides/knowledge-base/create-knowledge-and-upload-documents#id-6-jian-suo-she-zhi)
 
 ***
 
 ### 9 知识库 API 管理
 
-Kofe 知识库提供整套标准 API ，开发者通过 API 调用对知识库内的文档、分段进行增删改查等日常管理维护操作，请参考[知识库 API 文档](maintain-dataset-via-api.md)。
+Dify 知识库提供整套标准 API ，开发者通过 API 调用对知识库内的文档、分段进行增删改查等日常管理维护操作，请参考[知识库 API 文档](maintain-dataset-via-api.md)。
 
 <figure><img src="../../.gitbook/assets/image (180).png" alt=""><figcaption><p>知识库 API 管理</p></figcaption></figure>

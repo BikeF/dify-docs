@@ -1,6 +1,6 @@
 # 发布为公开 Web 站点
 
-使用 Kofe 创建 AI 应用的一个好处在于，你可以在几分钟内就发布一个可供用户在互联网上公开访问的 Web 应用，该应用将根据你的 Prompt 和编排设置进行工作。
+使用 Dify 创建 AI 应用的一个好处在于，你可以在几分钟内就发布一个可供用户在互联网上公开访问的 Web 应用，该应用将根据你的 Prompt 和编排设置进行工作。
 
 * 如果你使用的是自部署的开源版，该应用将运行在你的服务器上
 * 如果你使用的是云服务，该应用将托管至网址 <https://udify.app/>
@@ -34,4 +34,4 @@
 
 ### 嵌入你的 AI 站点
 
-除了将应用发布为一个公开的 AI 网站，你还可以将它嵌入并集成至你的网站、博客或其它任意网页中。详细说明请参考 [《嵌入网站》](https://docs.kofe.ai/v/zh-hans/guides/application-publishing/embedding-in-websites)。
+除了将应用发布为一个公开的 AI 网站，你还可以将它嵌入并集成至你的网站、博客或其它任意网页中。详细说明请参考 [《嵌入网站》](https://docs.dify.ai/v/zh-hans/guides/application-publishing/embedding-in-websites)。

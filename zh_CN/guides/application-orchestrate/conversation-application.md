@@ -70,11 +70,11 @@
 
 ![](../../../img/zh-multiple-models-2.png)
 
-> ⚠️ 使用多模型调试功能时，如果仅看到部分大模型，这是因为暂未添加其它大模型的 Key。你可以在[“增加新供应商”](https://docs.kofe.ai/v/zh-hans/guides/model-configuration/new-provider)内手动添加多个模型的 Key。
+> ⚠️ 使用多模型调试功能时，如果仅看到部分大模型，这是因为暂未添加其它大模型的 Key。你可以在[“增加新供应商”](https://docs.dify.ai/v/zh-hans/guides/model-configuration/new-provider)内手动添加多个模型的 Key。
 
 #### 发布应用
 
-调试好应用后，点击右上角的 **“发布”** 按钮生成独立的 AI 应用。除了通过公开 URL 体验该应用，你也进行基于 APIs 的二次开发、嵌入至网站内等操作。详情请参考[发布](https://docs.kofe.ai/v/zh-hans/guides/application-publishing)。
+调试好应用后，点击右上角的 **“发布”** 按钮生成独立的 AI 应用。除了通过公开 URL 体验该应用，你也进行基于 APIs 的二次开发、嵌入至网站内等操作。详情请参考[发布](https://docs.dify.ai/v/zh-hans/guides/application-publishing)。
 
 如果想定制已发布的应用，可以 Fork 我们的开源的 [WebApp 的模版](https://github.com/langgenius/webapp-conversation)。基于模版改成符合你的情景与风格需求的应用。
 
@@ -82,4 +82,4 @@
 
 **如何在聊天助手内添加第三方工具？**
 
-聊天助手类型应用不支持添加第三方工具，你可以在 [Agent 类型](https://docs.kofe.ai/v/zh-hans/guides/application-orchestrate/agent)应用内添加第三方工具。
+聊天助手类型应用不支持添加第三方工具，你可以在 [Agent 类型](https://docs.dify.ai/v/zh-hans/guides/application-orchestrate/agent)应用内添加第三方工具。

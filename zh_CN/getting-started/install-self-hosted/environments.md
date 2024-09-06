@@ -4,23 +4,23 @@
 
 #### CONSOLE\_API\_URL
 
-控制台 API 后端 URL，用于拼接授权回调，传空则为同域。范例：`https://api.console.kofe.ai`。
+控制台 API 后端 URL，用于拼接授权回调，传空则为同域。范例：`https://api.console.dify.ai`。
 
 #### CONSOLE\_WEB\_URL
 
-控制台 web **前端** URL，用于拼接部分前端地址，以及 CORS 配置使用，传空则为同域。范例：`https://console.kofe.ai`
+控制台 web **前端** URL，用于拼接部分前端地址，以及 CORS 配置使用，传空则为同域。范例：`https://console.dify.ai`
 
 #### SERVICE\_API\_URL
 
-Service API URL，用于**给前端**展示 Service API Base URL，传空则为同域。范例：`https://api.kofe.ai`
+Service API URL，用于**给前端**展示 Service API Base URL，传空则为同域。范例：`https://api.dify.ai`
 
 #### APP\_API\_URL
 
-WebApp API 后端 URL，用于声明**前端** API 后端地址，传空则为同域。范例：`https://app.kofe.ai`
+WebApp API 后端 URL，用于声明**前端** API 后端地址，传空则为同域。范例：`https://app.dify.ai`
 
 #### APP\_WEB\_URL
 
-WebApp URL，用于**给前端**展示 WebAPP API Base URL，传空则为同域。范例：`https://api.app.kofe.ai`
+WebApp URL，用于**给前端**展示 WebAPP API Base URL，传空则为同域。范例：`https://api.app.dify.ai`
 
 #### FILES\_URL
 
@@ -74,7 +74,7 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
 
 #### CHECK\_UPDATE\_URL
 
-是否开启检查版本策略，若设置为 false，则不调用 `https://updates.kofe.ai` 进行版本检查。由于目前国内无法直接访问基于 CloudFlare Worker 的版本接口，设置该变量为空，可以屏蔽该接口调用。
+是否开启检查版本策略，若设置为 false，则不调用 `https://updates.dify.ai` 进行版本检查。由于目前国内无法直接访问基于 CloudFlare Worker 的版本接口，设置该变量为空，可以屏蔽该接口调用。
 
 #### 容器启动相关配置
 
@@ -158,7 +158,7 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
 
     WebAPP CORS 跨域策略，默认为 `*`，即所有域名均可访问。
 
-详细配置可参考：[跨域/身份相关指南](https://docs.kofe.ai/v/zh-hans/learn-more/faq/install-faq#id-3.-an-zhuang-shi-hou-wu-fa-deng-lu-deng-lu-cheng-gong-dan-hou-xu-jie-kou-jun-ti-shi-401)
+详细配置可参考：[跨域/身份相关指南](https://docs.dify.ai/v/zh-hans/learn-more/faq/install-faq#id-3.-an-zhuang-shi-hou-wu-fa-deng-lu-deng-lu-cheng-gong-dan-hou-xu-jie-kou-jun-ti-shi-401)
 
 #### 文件存储配置
 
@@ -282,7 +282,7 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
   TiDB Vector 密码配置
 * TIDB\_VECTOR\_DATABASE
 
-  TiDB Vector 数据库配置，如：`kofe`
+  TiDB Vector 数据库配置，如：`dify`
 
 #### 知识库配置
 
@@ -296,9 +296,9 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
 
     **可使用的枚举类型包括：**
 
-    *   kofe
+    *   dify
 
-        Kofe 自研文件 Extract 方案
+        Dify 自研文件 Extract 方案
     *   Unstructured
 
         Unstructured.io 文件 Extract 方案
@@ -343,7 +343,7 @@ Notion 集成配置，变量可通过申请 Notion integration 获取：[https:/
 * MAIL\_TYPE
   * resend
     * MAIL\_DEFAULT\_SEND\_FROM\
-      发件人的电子邮件名称，例如：no-reply [no-reply@kofe.ai](mailto:no-reply@kofe.ai)，非必需。
+      发件人的电子邮件名称，例如：no-reply [no-reply@dify.ai](mailto:no-reply@dify.ai)，非必需。
     * RESEND\_API\_KEY\
       用于 Resend 邮件提供程序的 API 密钥，可以从 API 密钥获取。
   * smtp
@@ -358,13 +358,13 @@ Notion 集成配置，变量可通过申请 Notion integration 获取：[https:/
     * SMTP\_USE\_TLS\
       是否使用 TLS，默认为 false
     * MAIL\_DEFAULT\_SEND\_FROM\
-      发件人的电子邮件名称，例如：no-reply [no-reply@kofe.ai](mailto:no-reply@kofe.ai)，非必需。
+      发件人的电子邮件名称，例如：no-reply [no-reply@dify.ai](mailto:no-reply@dify.ai)，非必需。
 
 #### 模型供应商 & 工具 位置配置
 
 用于指定应用中可以使用的模型供应商和工具。您可以自定义哪些工具和模型供应商可用，以及它们在应用界面中的顺序和包含/排除情况。
 
-详见可用的[工具](https://github.com/langgenius/kofe/blob/main/api/core/tools/provider/_position.yaml) 和 [模型供应商](https://github.com/langgenius/kofe/blob/main/api/core/model_runtime/model_providers/_position.yaml)。
+详见可用的[工具](https://github.com/langgenius/dify/blob/main/api/core/tools/provider/_position.yaml) 和 [模型供应商](https://github.com/langgenius/dify/blob/main/api/core/model_runtime/model_providers/_position.yaml)。
 
 * POSITION_TOOL_PINS
 
@@ -420,19 +420,19 @@ Sentry DSN 地址，默认为空，为空时则所有监控信息均不上报 Se
 
 > ⚠️ 修改于 0.3.8，于 0.4.9 废弃，替代为：`CONSOLE_API_URL` 和 `CONSOLE_WEB_URL`。
 
-控制台 URL，用于拼接授权回调、控制台前端地址，以及 CORS 配置使用，传空则为同域。范例：`https://console.kofe.ai`。
+控制台 URL，用于拼接授权回调、控制台前端地址，以及 CORS 配置使用，传空则为同域。范例：`https://console.dify.ai`。
 
 #### API\_URL
 
 > ⚠️ 修改于 0.3.8，于 0.4.9 废弃，替代为 `SERVICE_API_URL`。
 
-API Url，用于**给前端**展示 Service API Base Url，传空则为同域。范例：`https://api.kofe.ai`
+API Url，用于**给前端**展示 Service API Base Url，传空则为同域。范例：`https://api.dify.ai`
 
 #### APP\_URL
 
 > ⚠️ 修改于 0.3.8，于 0.4.9 废弃，替代为 `APP_API_URL` 和 `APP_WEB_URL`。
 
-WebApp Url，用于声明**前端** API 后端地址，传空则为同域。范例：`https://app.kofe.ai`
+WebApp Url，用于声明**前端** API 后端地址，传空则为同域。范例：`https://app.dify.ai`
 
 #### Session 配置
 
