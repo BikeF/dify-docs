@@ -1,0 +1,5 @@
+root: ./zh_CN/
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
