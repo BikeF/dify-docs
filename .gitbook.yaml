@@ -1,0 +1,20 @@
+title: 我的多语言书籍
+description: 这是一本多语言的书籍，包含英文、日文和中文内容。
+
+# 语言设置
+language: zh-CN
+
+# 书籍的目录结构
+structure:
+  chapters:
+    - en/README.md
+    - jp/README.md
+    - zh_CN/README.md
+
+# 主题和样式
+theme:
+  name: default
+
+# 插件
+plugins:
+  - search
