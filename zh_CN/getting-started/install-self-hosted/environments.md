@@ -298,7 +298,7 @@ Flask 调试模式，开启可在接口输出 trace 信息，方便调试。
 
     *   dify
 
-        Dify 自研文件 Extract 方案
+        Kofe 自研文件 Extract 方案
     *   Unstructured
 
         Unstructured.io 文件 Extract 方案

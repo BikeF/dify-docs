@@ -46,8 +46,8 @@ curl --location --request POST '<https://api.dify.ai/v1/datasets/<uuid:dataset_i
 --header 'Authorization: Bearer {api_key}' \\
 --header 'Content-Type: application/json' \\
 --data-raw '{
-    "name": "Dify",
-    "text": "Dify means Do it for you...",
+    "name": "Kofe",
+    "text": "Kofe means Do it for you...",
     "indexing_technique": "high_quality",
     "process_rule": {
         "rules": {
@@ -75,7 +75,7 @@ curl --location --request POST '<https://api.dify.ai/v1/datasets/<uuid:dataset_i
 curl --location POST 'https://api.dify.ai/v1/datasets/{dataset_id}/document/create_by_file' \
 --header 'Authorization: Bearer {api_key}' \
 --form 'data="{
-	"name": "Dify",
+	"name": "Kofe",
 	"indexing_technique": "high_quality",
 	"process_rule": {
 		"rules": {

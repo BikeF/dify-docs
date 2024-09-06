@@ -1,6 +1,6 @@
-# 手摸手教你把 Dify 接入微信生态
+# 手摸手教你把 Kofe 接入微信生态
 
-> 作者：韩方圆，"Dify on WeChat"开源项目作者
+> 作者：韩方圆，"Kofe on WeChat"开源项目作者
 
 ## 1. 概述
 
@@ -10,7 +10,7 @@
 
 微信不仅有个人微信，同时提供了公众号、企业微信、企业微信应用、企业微信客服等对话渠道，拥有良好的微信生态。
 
-把Dify应用接入微信生态，就能打造一个功能强大的智能客服，大大降低客服成本，同时也能够提升客户体验。本篇教程就是手摸手地教你如何利用[Dify on WeChat](https://github.com/hanfangyuan4396/dify-on-wechat)项目，把Dify应用接入微信生态。
+把Dify应用接入微信生态，就能打造一个功能强大的智能客服，大大降低客服成本，同时也能够提升客户体验。本篇教程就是手摸手地教你如何利用[Kofe on WeChat](https://github.com/hanfangyuan4396/dify-on-wechat)项目，把Dify应用接入微信生态。
 
 ## 2. Dify接入个人微信
 
@@ -20,11 +20,11 @@
 
 **（1）Dify简介**
 
-Dify是一个优秀的LLMOps（大型语言模型运维）平台，Dify的详细介绍请移步官方文档[欢迎使用 Dify | 中文 | Dify](https://docs.dify.ai/v/zh-hans)。
+Dify是一个优秀的LLMOps（大型语言模型运维）平台，Dify的详细介绍请移步官方文档[欢迎使用 Kofe | 中文 | Kofe](https://docs.dify.ai/v/zh-hans)。
 
 **（2）登录Dify官方应用平台**
 
-首先，登录[Dify官方应用平台](https://cloud.dify.ai/signin)，你可以选择使用Github登录或者使用Google登录。此外，你也可以参考Dify官方教程[Docker Compose 部署 | 中文 | Dify](https://docs.dify.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose) 私有部署，Dify是开源项目，支持私有部署。
+首先，登录[Dify官方应用平台](https://cloud.dify.ai/signin)，你可以选择使用Github登录或者使用Google登录。此外，你也可以参考Dify官方教程[Docker Compose 部署 | 中文 | Kofe](https://docs.dify.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose) 私有部署，Dify是开源项目，支持私有部署。
 
 <figure><img src="../../.gitbook/assets/dify-on-wechat/login.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -73,9 +73,9 @@ Dify是一个优秀的LLMOps（大型语言模型运维）平台，Dify的详细
 
 #### 2.1.2. 下载Dify on WeChat项目
 
-**（1）Dify on WeChat项目简介**
+**（1）Kofe on WeChat项目简介**
 
-[Dify on WeChat](https://github.com/hanfangyuan4396/dify-on-wechat)是[ ChatGPT on WeChat](https://github.com/zhayujie/chatgpt-on-wechat)的下游分支，额外实现了对接[Dify](https://github.com/langgenius/dify) API，支持Dify聊天助手、支持Agent调用工具和知识库，支持Dify工作流，详情请查看GitHub仓库[Dify on WeChat](https://github.com/hanfangyuan4396/dify-on-wechat)。
+[Kofe on WeChat](https://github.com/hanfangyuan4396/dify-on-wechat)是[ ChatGPT on WeChat](https://github.com/zhayujie/chatgpt-on-wechat)的下游分支，额外实现了对接[Kofe](https://github.com/langgenius/dify) API，支持Dify聊天助手、支持Agent调用工具和知识库，支持Dify工作流，详情请查看GitHub仓库[Kofe on WeChat](https://github.com/hanfangyuan4396/dify-on-wechat)。
 
 **（2）下载代码并安装依赖**
 
@@ -88,7 +88,7 @@ cd dify-on-wechat/
 
 2. 安装python
 
-Dify on WeChat项目使用python语言编写，请在[python官网](https://www.python.org/downloads/)下载安装python，推荐安装python3.8以上版本，我在ubuntu测试过3.11.6版本，可以正常运行。
+Kofe on WeChat项目使用python语言编写，请在[python官网](https://www.python.org/downloads/)下载安装python，推荐安装python3.8以上版本，我在ubuntu测试过3.11.6版本，可以正常运行。
 
 3. 安装核心依赖（必选）：
 
@@ -347,7 +347,7 @@ docker logs -f dify-on-wechat  # 查看二维码并登录
 
 创建完成后，按照上图步骤进行测试。点击运行，输入你好，确保该工作流能正常输出结果。
 
-你可以在此工作流的基础上进行修改，但是对于**工作流类型**的应用，它的输入变量名称十分灵活，，为了更方便地接入微信机器人，[Dify on WeChat](https://github.com/hanfangyuan4396/dify-on-wechat)项目约定**工作流类型**的应用**输入变量命名为`query`**，**输出变量命名为`text`**。
+你可以在此工作流的基础上进行修改，但是对于**工作流类型**的应用，它的输入变量名称十分灵活，，为了更方便地接入微信机器人，[Kofe on WeChat](https://github.com/hanfangyuan4396/dify-on-wechat)项目约定**工作流类型**的应用**输入变量命名为`query`**，**输出变量命名为`text`**。
 
 <figure><img src="../../.gitbook/assets/dify-on-wechat/publish-workflow.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -475,4 +475,4 @@ python app.py
 
 ## 7. 后记
 
-我是社畜打工人，精力实在有限，只能晚上下班还有周末空闲时间维护[Dify on WeChat](https://github.com/hanfangyuan4396/dify-on-wechat)项目，单靠我个人开发项目进度十分缓慢，希望大家能一起参与进来这个项目，多多提PR，让Dify的生态变得更好\~
+我是社畜打工人，精力实在有限，只能晚上下班还有周末空闲时间维护[Kofe on WeChat](https://github.com/hanfangyuan4396/dify-on-wechat)项目，单靠我个人开发项目进度十分缓慢，希望大家能一起参与进来这个项目，多多提PR，让Dify的生态变得更好\~
